@@ -1,0 +1,65 @@
+body {
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+section {
+    /* position: absolute;
+    width: 581px;
+    height: 613px;
+    left: 842px;
+    top: 104px; */
+    display: flex;
+    border-radius: 25px;
+}
+
+.container {
+    background-color: black;
+    width: 870px;
+    padding: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.watch {
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.second>button {
+    align-items: flex-start;
+    margin-top: 15px;
+    padding: 25px;
+    border-radius: 15px;
+
+}
+
+.thumbnail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog-title {
+    color: black;
+}
